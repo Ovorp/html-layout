@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-areas:
+    "a a a"
+    "b c d"
+    "b e d";
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+header {
+  width: auto;
+  background-color: grey;
+  grid-area: a;
+}
+
+.left,
+.right {
+  width: auto;
+  background-color: lightgray;
+}
+.left {
+  grid-area: b;
+}
+.middle {
+  width: auto;
+  grid-area: c;
+  background-color: white;
+}
+.right {
+  grid-area: d;
+}
+footer {
+  width: auto;
+  grid-area: e;
+  background-color: black;
+}
