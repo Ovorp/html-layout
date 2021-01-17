@@ -1,0 +1,52 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: lightgray;
+  height: 10vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+#box {
+  margin-left: 1%;
+  height: 60%;
+  width: 5%;
+}
+
+main {
+  background-color: white;
+  height: 30vh;
+}
+
+article {
+  height: 100%;
+  font-family: sans-serif;
+  padding: 5%;
+}
+
+.blue {
+  background-color: rgb(135, 175, 250);
+  height: 15vh;
+}
+.teal {
+  background-color: teal;
+  height: 15vh;
+}
+.green {
+  background-color: yellowgreen;
+  height: 15vh;
+}
+.yellow {
+  background-color: yellow;
+  height: 15vh;
+}
