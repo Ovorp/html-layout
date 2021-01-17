@@ -78,6 +78,7 @@ footer p {
   border: grey 1px solid;
   color: rgb(22, 22, 136);
   font-size: 2rem;
+  letter-spacing: 0.2rem;
   font-weight: bolder;
   box-shadow: 2px 5px 6px #c9c9c9;
 }
