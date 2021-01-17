@@ -28,18 +28,34 @@ main {
   height: 30vh;
 }
 
-article {
+/* article {
+  font-size: 1.5vw;
   height: 100%;
   font-family: sans-serif;
   padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}  */
+
+p {
+  height: 100%;
+  width: 100%;
+  padding: 0 5%;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* word-break: break-all; */
 }
 
 .blue {
-  background-color: rgb(135, 175, 250);
+  background-color: rgb(82, 104, 204);
   height: 15vh;
 }
 .teal {
-  background-color: teal;
+  background-color: rgb(49, 180, 174);
   height: 15vh;
 }
 .green {
